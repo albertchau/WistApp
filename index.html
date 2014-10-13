@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="skrollr.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<div id="info">0</div>
+
+<section id="slide-1">
+    <div class="bcg"></div>
+    <div id="scrollBaby"
+         data-top="transform:translateY(0px);"
+         data--500-top="transform:translateY(300px)"
+         data-anchor-target="#slide-1"></div>
+    <div id="tree"
+         data--1780-top="clip:rect(0px,400px,580px,0px);"
+         data--2350-top="clip:rect(0px,400px,0px,0px);"
+         data-anchor-target="#slide-1">
+        <div class="item tree1"
+             data-top="opacity:0"
+             data--1000-top="opacity:0; transform: scale(0.5); bottom: 71px;"
+             data--1300-top="opacity:1; transform: scale(0.5); bottom: 90px;"
+             data--2000-top="opacity:1; transform: scale(1); bottom: 426px;"
+             data-anchor-target="#slide-1"><img src="xmax/img_tree-p1.png"></div>
+        <div class="item tree2"
+             data-top="opacity:0; transform: scale(0.3); bottom:71px;"
+             data--1100-top="opacity:0; transform: scale(0.3); bottom:71px;"
+             data--1212-top="opacity:1; transform: scale(0.45); bottom:81px;"
+             data--2000-top="opacity:1; transform: scale(1); bottom: 303;"
+             data-anchor-target="#slide-1"><img src="xmax/img_tree-p2.png"></div>
+        <div class="item tree3"
+             data-top="opacity:0;"
+             data--1212-top="opacity:0; transform: scale(0.3); bottom:71px;"
+             data--1700-top="opacity:1; transform: scale(0.55); bottom:81px;"
+             data--2000-top="opacity:1; transform: scale(1); bottom: 205;"
+             data-anchor-target="#slide-1"><img src="xmax/img_tree-p3.png"></div>
+        <div class="item tree4"
+             data-top="opacity:0; transform: scale(0.3);"
+             data--1600-top="opacity:0; transform: scale(0.52);"
+             data--1800-top="opacity:1; transform: scale(0.60);"
+             data--2000-top="opacity:1; transform: scale(1);"
+             data-anchor-target="#slide-1"><img src="xmax/img_tree-p4.png"></div>
+        <div class="item trunk"
+             data-top="opacity:0;"
+             data--1000-top="opacity:0; transform: scale(0.3);"
+             data--1300-top="opacity:1; transform: scale(0.3);"
+             data--2000-top="opacity:1; transform: scale(1);"
+             data-anchor-target="#slide-1"><img src="xmax/img_trunk.png"></div>
+        <div class="item pot"
+             data-top="opacity:0; transform:translateY(-800px)"
+             data--500-top="opacity:1; transform[bounce]:translateY(-200px)"
+             data--1000-top="opacity:1; transform[bounce]:translateY(0)"
+             data-anchor-target="#slide-1"><img src="xmax/img_pot.png"></div>
+        <div class="item shadow"
+             data-top="opacity:0; transform:scale(0.2);"
+             data--1200-top="opacity:0.5; transform: scale(0.95);"
+             data--2000-top="opacity:1; transform: scale(1);"
+             data-anchor-target="#slide-1"><img src="xmax/img_shadow.png"></div>
+
+    </div>
+</section>
+
+<section id="slide-2">
+    <div class="bcg"></div>
+    <div id="tree2">
+        <div id="colorTree" class="item tree1"
+             data-700-top="clip:rect(550px,336px,550px,0px);"
+             data-140-top="clip:rect(0px,336px,550px,0px);"
+             data-anchor-target="#slide-2"><img src="xmax/img_tree2.png"></div>
+    </div>
+</section>
+<script src="app.js"></script>
+</body>
+</html>
+
+
+<!--data-700-top="clip:rect(550px,336px,550px,0px);"-->
+<!--data-140-top="clip:rect(0px,336px,550px,0px);"-->

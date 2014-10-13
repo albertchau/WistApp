@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+#container {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px auto;
+    background: white;
+    color:black;
+    font-family: ubuntu,serif;
+}
+
+#header {
+    background-color: rgb(255,116, 109);
+    margin-top: -20px;
+    height: 170px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.redishh {
+    color: rgb(255,116, 109);
+}
+
+#login_btn {
+    color:white;
+    background-color: rgba(0,0,0,0);
+    border-color: #ffffff;
+    font-family: ubuntu,serif;
+    font-size: 25px;
+    border-width: 4px;
+    height: 55px;
+    width: 200px;
+}
+
+#signup {
+    color:white;
+    background-color: rgb(255,77, 68);
+    border-color: #ffffff;
+    font-family: ubuntu,serif;
+    font-size: 34px;
+    margin: -75px -120px;
+    position:relative;
+    top:45%;
+    left:50%;
+    height:75px;
+    width:240px;
+    /*padding: 15px 50px 15px 60px;*/
+    border-width: 0;
+}
+
+/*header {*/
+    /*width: 90%;*/
+    /*text-align: center;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*margin: 0px -50% 0px auto;*/
+/*}*/
+
+/*header h1 {*/
+    /*text-align: center;*/
+    /*font: 100 60px/1.5 ubuntu;*/
+
+/*}*/
+
+/*header p {*/
+    /*font: 100 15px/1.5 ubuntu;*/
+    /*text-align: center;*/
+/*}*/
+
+/*photobanner*/
+
+.photobanner {
+    height: 200px;
+    width: 6000px;
+    margin-top: -1px;
+    position: relative
+}
+
+#food_div {
+    opacity: 0.5;
+}
+
+#store_div {
+    zoom: 1.75;
+    opacity: .75;
+}
+
+.animation-container {
+    position: relative;
+}
+
+.followers_store {
+    margin: 1px;
+    float: left;
+    width: 300px;
+    position: relative;
+    /*border: 1px solid red;*/
+}
+
+.followers_food {
+    margin: 1px;
+    float: left;
+    width: 300px;
+    /*border: 1px solid red;*/
+}
+
+.space {
+    height:120px;
+    /*background: black;*/
+}
+
+.align_left {
+    margin-left:5px;
+    margin-right:10px;
+    float: left;
+    position:static;
+}
+
+.text_align {
+    position: absolute;
+    top: 185px;
+    width:100%;
+    height: 30px;
+    padding-top: 5px;
+    color: white;
+    font-size: 15px;
+    margin-top: -15px;
+    background-color: rgba(0,0,0,.80);
+    z-index: 20;
+
+}
+
+.align_right {
+    margin-right:5px;
+    float: right;
+}
+
+/*#testMargin {*/
+    /*margin-left: -3040px;*/
+/*}*/
+/*keyframe animations*/
+.first {
+    -webkit-animation: bannermove 80s linear infinite;
+    -moz-animation: bannermove 30s linear infinite;
+    -ms-animation: bannermove 30s linear infinite;
+    -o-animation: bannermove 30s linear infinite;
+    animation: bannermove 10s linear infinite;
+}
+
+@keyframes "bannermove" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -1000px;
+    }
+
+}
+
+@-moz-keyframes bannermove {
+    0% {
+        margin-left: 1000px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+
+}
+
+@-webkit-keyframes "bannermove" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -3020px;
+    }
+
+}
+
+@-ms-keyframes "bannermove" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+
+}
+
+@-o-keyframes "bannermove" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+
+}
+
+.second {
+    -webkit-animation: banne 80s linear infinite;
+    -moz-animation: banne 30s linear infinite;
+    -ms-animation: banne 30s linear infinite;
+    -o-animation: banne 30s linear infinite;
+    animation: banne 10s linear infinite;
+}
+
+@keyframes "banne" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -1000px;
+    }
+
+}
+
+@-moz-keyframes banne {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+
+}
+
+@-webkit-keyframes banne {
+    100% {
+        margin-left: 0px;
+    }
+    0% {
+        margin-left: -3020px;
+    }
+
+}
+
+@-ms-keyframes "banne" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+
+}
+
+@-o-keyframes "banne" {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -2125px;
+    }
+
+}
+
+/*fonts*/
+@font-face {
+    font-family: ubuntu;
+    src: url('fonts/Ubuntu-B.ttf');
+    font-weight: bold;
+}
